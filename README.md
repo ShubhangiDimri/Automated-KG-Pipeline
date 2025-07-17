@@ -1,48 +1,52 @@
-Automated Knowledge Graph Builder
-This project provides a fully automated pipeline that extracts entities and their relationships from unstructured text using a Large Language Model (LLM), and stores them as a visual knowledge graph in Neo4j. It transforms scientific, technical, historical, or fictional texts into interactive, queryable graph structures—with zero manual labeling required.
+#  Automated Knowledge Graph Builder
 
- Demo
-Knowledge Graph Visualization
+This project provides a **fully automated pipeline** that extracts entities and their relationships from unstructured text using a **Large Language Model (LLM)**, and stores them as a **visual knowledge graph** in Neo4j. It transforms scientific, technical, historical, or fictional texts into **interactive, queryable graph structures**—with **zero manual labeling** required.
 
-Add a screenshot of your final graph here
+---
 
- Key Features
-Entity and Relationship Extraction
-Automatically identifies people, projects, organizations, concepts, and their interconnections directly from natural text.
+##  Demo: Knowledge Graph Visualization
 
-LLM-Powered Parsing
-Utilizes an LLM for deep, context-rich language understanding—no hand-written NLP rules needed.
+_Add a screenshot of your final graph here_
 
-Chunked Document Support
-Efficiently processes large files by splitting them into manageable sections while preserving context.
+---
 
-Graph Database Storage
-Stores each entity with a unique ID and human-readable name in Neo4j, enabling seamless visualization and querying.
+##  Key Features
 
-Easy, Secure Configuration
-All credentials and configurations are handled via a .env file—no hardcoded secrets.
+- **Entity and Relationship Extraction**  
+  Automatically identifies people, projects, organizations, concepts, and their interconnections directly from natural text.
 
- Tech Stack
-Language: Python
+- **LLM-Powered Parsing**  
+  Utilizes an LLM for deep, context-rich language understanding—no hand-written NLP rules needed.
 
-LLM Orchestration: LangChain
+- **Chunked Document Support**  
+  Efficiently processes large files by splitting them into manageable sections while preserving context.
 
-LLM: Ollama (e.g., LLaMA 3.1)
+- **Graph Database Storage**  
+  Stores each entity with a unique ID and human-readable name in Neo4j, enabling seamless visualization and querying.
 
-Graph Database: Neo4j
+- **Easy, Secure Configuration**  
+  All credentials and configurations are handled via a `.env` file—**no hardcoded secrets**.
 
-Data Validation: Pydantic
+---
 
-Environment Management: python-dotenv
+##  Tech Stack
 
- Project Goals
-- Automate the extraction of knowledge graphs (nodes/entities and edges/relationships) from raw text.
+- **Language:** Python  
+- **LLM Orchestration:** LangChain  
+- **LLM:** Ollama (e.g., LLaMA 3.1)  
+- **Graph Database:** Neo4j  
+- **Data Validation:** Pydantic  
+- **Configuration Management:** python-dotenv
 
-- Leverage LLMs for context-aware understanding—going beyond keyword spotting.
+---
 
-- Store and visualize structured data in Neo4j for intuitive graph exploration and querying.
+##  Project Goals
 
-- Deliver a fully reproducible, secure, and extensible pipeline for researchers, devs, and demo use.
+-  Automate the extraction of **knowledge graphs** (nodes/entities and edges/relationships) from raw text.
+-  Leverage LLMs for **context-aware understanding**—going beyond keyword spotting.
+-  Store and visualize structured data in **Neo4j** for intuitive graph exploration and querying.
+-  Deliver a **fully reproducible, secure, and extensible** pipeline for researchers, devs, and demo use.
+
 
 
 
