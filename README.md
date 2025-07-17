@@ -4,11 +4,11 @@ This project provides a **fully automated pipeline** that extracts entities and 
 
 ---
 
-##  Demo: Knowledge Graph Visualization
+## Demo: Knowledge Graph Visualization
 
-_Add a screenshot of your final graph here_
+![kg](https'://github.com/user-attachments/assets/872f2823-c1c7-41d1-9a2c-cb4d45338121)
 
----
+![Terminal](https://github.com/user-attachments/assets/2c5a1f1c-d08c-4c9b-b930-59b20b7f4938)
 
 ##  Key Features
 
