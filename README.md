@@ -1,41 +1,50 @@
 Automated Knowledge Graph Builder
-This project provides a fully automated pipeline that extracts entities and their relationships from unstructured text, utilizing a Large Language Model (LLM), and stores this data as a visual knowledge graph in Neo4j. This enables rapid transformation of scientific, technical, historic, or fictional texts into interactive, queryable graph structures—no manual data labeling required.
+This project provides a fully automated pipeline that extracts entities and their relationships from unstructured text using a Large Language Model (LLM), and stores them as a visual knowledge graph in Neo4j. It transforms scientific, technical, historical, or fictional texts into interactive, queryable graph structures—with zero manual labeling required.
 
-Demo: Knowledge Graph Visualization
-(Here you can add a screenshot of your final graph)
+ Demo
+Knowledge Graph Visualization
 
-Key Features
-Entity and Relationship Extraction: Automatically finds important people, projects, organizations, concepts, and their connections, directly from natural text.
+Add a screenshot of your final graph here
 
-LLM-Powered Parsing: Uses an LLM for context-rich understanding—no hand-written NLP rules.
+ Key Features
+Entity and Relationship Extraction
+Automatically identifies people, projects, organizations, concepts, and their interconnections directly from natural text.
 
-Chunked Document Support: Handles large files by splitting them into manageable sections to preserve relational context.
+LLM-Powered Parsing
+Utilizes an LLM for deep, context-rich language understanding—no hand-written NLP rules needed.
 
-Graph Database Storage: Every entity is stored with both a unique ID and a human-friendly name for seamless Neo4j visualization.
+Chunked Document Support
+Efficiently processes large files by splitting them into manageable sections while preserving context.
 
-Easy, Secure Configuration: All credentials are managed via an .env file; nothing is hardcoded.
+Graph Database Storage
+Stores each entity with a unique ID and human-readable name in Neo4j, enabling seamless visualization and querying.
 
-Tech Stack
+Easy, Secure Configuration
+All credentials and configurations are handled via a .env file—no hardcoded secrets.
+
+ Tech Stack
 Language: Python
 
 LLM Orchestration: LangChain
 
-LLM: Ollama (LLaMA 3 or other local LLM)
+LLM: Ollama (e.g., LLaMA 3.1)
 
-Database: Neo4j Graph Database
+Graph Database: Neo4j
 
 Data Validation: Pydantic
 
-Configuration: python-dotenv
+Environment Management: python-dotenv
 
-Project Goals
-Automate the extraction of knowledge graphs (nodes/entities and edges/relationships) from plain text documents.
+ Project Goals
+- Automate the extraction of knowledge graphs (nodes/entities and edges/relationships) from raw text.
 
-Leverage LLMs for context-aware understanding of natural language, going beyond simple keyword extraction.
+- Leverage LLMs for context-aware understanding—going beyond keyword spotting.
 
-Store structured graphs in Neo4j so you can visually explore, query, and analyze the results with ease.
+- Store and visualize structured data in Neo4j for intuitive graph exploration and querying.
 
-Provide a fully reproducible and extensible pipeline for researchers, teams, or demo purposes.
+- Deliver a fully reproducible, secure, and extensible pipeline for researchers, devs, and demo use.
+
+
 
 
 
