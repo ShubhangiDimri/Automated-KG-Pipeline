@@ -3,6 +3,10 @@
 This project provides a **fully automated pipeline** that extracts entities and their relationships from unstructured text using a **Large Language Model (LLM)**, and stores them as a **visual knowledge graph** in Neo4j. It transforms scientific, technical, historical, or fictional texts into **interactive, queryable graph structures**—with **zero manual labeling** required.
 
 ---
+## Knowledge Graph Visualization
+<img width="1920" height="1080" alt="graph" src="https://github.com/user-attachments/assets/8d430035-5248-48b3-8313-538f7c06d1df" />
+
+
 
 
 ##  Key Features
