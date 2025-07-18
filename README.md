@@ -44,6 +44,11 @@ This project provides a **fully automated pipeline** that extracts entities and 
 -  Store and visualize structured data in **Neo4j** for intuitive graph exploration and querying.
 -  Deliver a **fully reproducible, secure, and extensible** pipeline for researchers, devs, and demo use.
 
+## Script Execution
+
+Here is the terminal output showing the successful execution of the script.
+![terminal](https://github.com/user-attachments/assets/f18232de-05eb-4516-adb7-4e81ee23dc33)
+
 
 
 
